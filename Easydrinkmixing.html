@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+        crossorigin="anonymous"
+    />
+
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Easydrinkmixing</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">EasyDrinkMixing</a>  
+            
+            <button 
+                class="navbar-toggler"
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="#navmenu">
+               <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#EingabeZutaten" class="nav-link">EingabeZutaten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Spezialrezepte" class="nav-link">Spezialrezepte</a>
+                    </li> 
+               </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="EingabeZutaten" class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+           <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Entdecke Rezepte mit deinen vorhandenen Zutaten</h1>
+                    <p class="lead my-4">
+                       Klicke alle Zutaten an, welche du Zuhause hast und verwenden möchtest & dir werden sofort passende Rezepte vorgeschlagen!
+                    </p>
+                    <button class="btn btn-dark btn-lg">Eingabe Zutaten</button>
+                </div>
+                <img class="img-fluid w-50 d-50 d-sm-block" src="img/drink-gurly-drink.svg" alt="">
+           </div>
+        </div>
+    </section>
+
+    <section id="Spezialrezepte" class="p-5 bg-secondary">
+        <div class="container">
+           <h2 class="text-center text-dark">Empfohlene Rezepte</h2>
+           <p class="lead text-center text-white mb-5">
+            Spezielle Rezepte, die besonders zu empfehlen sind
+           </p>
+           <div class="row g-4">
+               <div class="col-md-6 col-lg-3">
+                   <div class="card bg-light">
+                       <div class="card-body text-center">
+                           <img src="https://randomuser.me/api/portraits/men/41.jpg" 
+                                class="rounded-circle mb-3" 
+                                alt=""
+                            />
+                            <h3 class="card-title mb-3">Tequila sunrise</h3>
+                            <a href="#" class="btn btn-dark">Zum Rezept</a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/89.jpg" 
+                             class="rounded-circle mb-3" 
+                             alt=""
+                         />
+                        <span class="navbar-toggler-icon"></span>
+                        <h3 class="card-title mb-3">Strawberry Mojito</h3>
+                        <a href="#" class="btn btn-dark">Zum Rezept</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/91.jpg" 
+                             class="rounded-circle mb-3" 
+                             alt=""
+                         />
+                         <h3 class="card-title mb-3">caipirinha</h3>
+                         <a href="#" class="btn btn-dark">Zum Rezept</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/67.jpg" 
+                             class="rounded-circle mb-3" 
+                             alt=""
+                         />
+                         <h3 class="card-title mb-3">Lemon irgendöppis</h3>
+                         <a href="#" class="btn btn-dark">Zum Rezept</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+           </div>
+        </div>
+    </section>
