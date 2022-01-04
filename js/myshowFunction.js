@@ -46,7 +46,7 @@ function myshowFunction() {
     var sectionAperolSpritz = document.getElementById("AperolSpritz-Box");
     var sectionCloverClub = document.getElementById("CloverClub-Box");
     var sectionFrench75 = document.getElementById("French75-Box");
-    var sectionPassionsfruitMojito = document.getElementById("PassionsfruitMojito-Box");
+    var sectionPassionfruitMojito = document.getElementById("PassionfruitMojito-Box");
     var sectionPassoaFresh = document.getElementById("PassoaFresh-Box");
     var sectionGingerFlame = document.getElementById("GingerFlame-Box");
     var sectionGreenLemon = document.getElementById("GreenLemon-Box");
@@ -89,7 +89,7 @@ function myshowFunction() {
     sectionAperolSpritz.style.display = "none";
     sectionCloverClub.style.display = "none";
     sectionFrench75.style.display = "none";
-    sectionPassionsfruitMojito.style.display = "none";
+    sectionPassionfruitMojito.style.display = "none";
     sectionPassoaFresh.style.display = "none";
     sectionGingerFlame.style.display = "none";
     sectionGreenLemon.style.display = "none";
@@ -127,7 +127,7 @@ function myshowFunction() {
     if (checkBoxRum.checked == true){
       sectionPinaColada.style.display = "block";
       sectionMojito.style.display = "block";
-      sectionPassionsfruitMojito.style.display = "block";
+      sectionPassionfruitMojito.style.display = "block";
       sectionLongIslandIcedTea.style.display = "block";
       sectionJungleBird.style.display = "block"
     } else {
