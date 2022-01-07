@@ -503,7 +503,7 @@ function myshowFunction() {
 
 
     // Jägermeister, Zitronensaft ist "checked"
-    if ((checkBoxJägermeister.checked == true)&& (checkBoxMalibu.checked == true)) {
+    if ((checkBoxJägermeister.checked == true)&& (checkBoxZitronensaft.checked == true)) {
       sectionBedOfRoses.style.display = "block";
     } else {
       function myinitialFunction() {   
