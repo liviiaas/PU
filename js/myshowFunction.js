@@ -140,6 +140,72 @@ function myshowFunction() {
     }
     }
 
+    // Rum, Tequila ist  "checked"
+    if ((checkBoxRum.checked == true)&& (checkBoxTequila.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+    // Rum, Gin ist  "checked"
+    if ((checkBoxRum.checked == true)&& (checkBoxGin.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+    // Rum, Vodka ist  "checked"
+    if ((checkBoxRum.checked == true)&& (checkBoxVodka.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+    // Rum, TripleSec ist  "checked"
+    if ((checkBoxRum.checked == true)&& (checkBoxTripleSec.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+    // Vodka, Tequila ist  "checked"
+    if ((checkBoxVodka.checked == true)&& (checkBoxTequila.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+    // Vodka, Gin ist  "checked"
+    if ((checkBoxVodka.checked == true)&& (checkBoxGin.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+    // Vodka, TripleSec ist  "checked"
+    if ((checkBoxVodka.checked == true)&& (checkBoxTripleSec.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+
+    // Gin, Tequila ist  "checked"
+    if ((checkBoxGin.checked == true)&& (checkBoxTequila.checked == true)) {
+      sectionLongIslandIcedTea.style.display = "block";
+    } else {
+      function myinitialFunction() {    
+    }
+    }
+
+
 
 
     // Rum, Ananassaft ist  "checked"
@@ -722,7 +788,6 @@ function myshowFunction() {
     if ((((((((((((((((((((((((((((((checkBoxPassoa.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxRum.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
       sectionPassionfruitMojito.style.display = "block";
       sectionPassoaFresh.style.display = "block";
-      sectionTrojkaSunrise.style.display = "block";
     } else {
       function myinitialFunction() {
     }
@@ -1000,6 +1065,167 @@ function myshowFunction() {
 
     // Nothing ist "checked"
     if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaGrün ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaRot ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+
+    // Rum, TrojkaGrün, TrojkaRot ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, Malibu ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == true)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaGrün, Malibu ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == true)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaRot, Malibu ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == true)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaGrün, TrojkaRot, Malibu ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == true)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaGrün, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaRot, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Rum, TrojkaGrün, TrojkaRot, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == true)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Passoa, TrojkaGrün, TrojkaRot, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Passoa, TrojkaGrün, TrojkaRot, ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Passoa, TrojkaGrün, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Passoa, TrojkaRot, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Passoa, TrojkaGrün ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // Passoa, TrojkaRot ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == false)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+    
+    // Passoa, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == true)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // TrojkaGrün, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == true)&& (checkBoxTrojkaRot.checked == false)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
+      sectionDefault.style.display = "block";
+    } else {
+      function myinitialFunction() {
+    }
+    }
+
+    // TrojkaRot, Jägermeister ist "checked"
+    if ((((((((((((((((((((((((((((((checkBoxRum.checked == false)&& (checkBoxVodka.checked == false)&& (checkBoxTequila.checked == false)&& (checkBoxTrojkaGrün.checked == false)&& (checkBoxTrojkaRot.checked == true)&& (checkBoxPassoa.checked == false)&& (checkBoxMalibu.checked == false)&& (checkBoxJägermeister.checked == true)&& (checkBoxCaptainMorgan.checked == false)&& (checkBoxGin.checked == false)&& (checkBoxProsecco.checked == false)&& (checkBoxChampagner.checked == false)&& (checkBoxWhiskey.checked == false)&& (checkBoxTripleSec.checked == false)&& (checkBoxCampari.checked == false)&& (checkBoxGrandMarnier.checked == false)&& (checkBoxCitro.checked == false)&& (checkBoxCola.checked == false)&& (checkBoxEnergydrink.checked == false)&& (checkBoxGingerAle.checked == false)&& (checkBoxTonicWater.checked == false)&& (checkBoxHolunderblütensirup.checked == false)&& (checkBoxGrenadinesirup.checked == false)&& (checkBoxHimbeersirup.checked == false)&& (checkBoxOrangensaft.checked == false)&& (checkBoxPassionsfruchtsaft.checked == false)&& (checkBoxZitronensaft.checked == false)&& (checkBoxAnanassaft.checked == false)&& (checkBoxKokosnussmilch.checked == false)&& (checkBoxLimettensaft.checked == false)))))))))))))))))))))))))))))){
       sectionDefault.style.display = "block";
     } else {
       function myinitialFunction() {
